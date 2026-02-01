@@ -8,27 +8,106 @@ body {
     border-radius: 5px;
     color: white;
     background-color: rgb(20, 20, 20);
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .body {
     color: white;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .button {
     position: fixed;
-    padding: 10px;
-    bottom: 0px;
-    right: 0px;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 10px;
+    border: 3px solid rgb(8, 8, 8);
+    border-radius: 10px;
+    background-color: rgb(12, 12, 12);;
+}
+
+.youtube {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    position: relative;
+    background-color: rgb(255, 24, 24);
+    padding: 10px 10px;
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.youtube:hover {
+    background-color: rgb(253, 58, 58);
+}
+
+.x {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    position: relative;
+    background-color: rgb(8, 8, 8);
+    padding: 10px 10px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.x:hover {
+    background-color: rgb(20, 20, 20);
+}
+
+.facebook {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    position: relative;
+    background-color: rgb(26, 106, 255);
+    padding: 10px 10px;
+    border: 2px solid rgb(0, 81, 255);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.facebook:hover {
+    background-color: rgb(67, 131, 252);
+}
+
+.instagram {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    position: relative;
+    background-color: rgb(255, 36, 237);
+    padding: 10px 10px;
+    border: 2px solid rgb(255, 0, 212);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.instagram:hover {
+    background-color: rgb(252, 86, 238);
 }
 
 .github {
-    display: inline-block;
-    color: white;
-    font-weight: bolder;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    position: relative;
     background-color: rgb(133, 52, 243);
-    padding: 10px 32px;
+    padding: 10px 10px;
     border: 2px solid rgb(100, 23, 158);
     border-radius: 8px;
     cursor: pointer;
+}
+
+.github:hover {
+    background-color: rgb(155, 95, 238);
 }
