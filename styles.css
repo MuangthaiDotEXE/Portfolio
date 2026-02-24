@@ -41,7 +41,7 @@ body {
 }
 
 .youtube:hover {
-    background-color: rgb(253, 58, 58);
+    background-color: rgb(253, 62, 62);
 }
 
 .x {
@@ -67,7 +67,7 @@ body {
     justify-content: center;
     text-decoration: none;
     position: relative;
-    background-color: rgb(26, 106, 255);
+    background-color: rgb(31, 109, 255);
     padding: 10px 10px;
     border: 2px solid rgb(0, 81, 255);
     border-radius: 8px;
