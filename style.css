@@ -51,9 +51,11 @@ section {
 
 .about-body {
     display: flex;
-    gap:50px;
+    gap: 80px;
     color: white;
     align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -68,10 +70,9 @@ section {
 }
 
 .profile-picture {
+    width: 512px;
     max-width: 25%;
     height: auto;
-    padding-top: 25px;
-    padding-left: 100px;
 }
 
 .personal-information {
@@ -171,4 +172,16 @@ section {
 
 .github:hover {
     background-color: rgb(155, 95, 238);
+}
+
+@media (max-width: 768px) {
+    .about-body {
+        flex-direction: column;
+        gap: 40px;
+        text-align: center;
+    }
+
+    .profile-picture {
+        width: 250px;
+    }
 }
