@@ -1,25 +1,81 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-color: rgb(16, 16, 16);
 }
 
-.head {
-    text-align: center;
-    border: 5px solid rgb(20, 20, 20);
-    border-radius: 5px;
+nav {
+    background: rgb(16, 16, 16);
+    border-color: rgb(8, 8, 8);
+    padding: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: fixed;
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
     color: white;
-    background-color: rgb(20, 20, 20);
+    text-decoration: none;
+    font-weight: bold;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.body {
-    color: white;
+section {
+    height: 100vh;
+    padding: 100px 20px;
     text-align: center;
+}
+
+#about {
+    background: rgb(10, 10, 10)
+}
+
+.about-body {
+    display: flex;
+    gap:50px;
+    color: white;
+    align-items: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#project {
+    background: rgb(10, 10, 10)
+}
+
+.project-body {
+    color: white;
+    align-items: center;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .profile-picture {
-    width: 512px;
-    height: 512px;
+    max-width: 25%;
+    height: auto;
+    padding-top: 25px;
+    padding-left: 100px;
+}
+
+.personal-information {
+    color: white;
 }
 
 .button {
@@ -29,7 +85,7 @@ body {
     padding: 10px 10px;
     border: 3px solid rgb(8, 8, 8);
     border-radius: 10px;
-    background-color: rgb(12, 12, 12);;
+    background-color: rgb(12, 12, 12);
 }
 
 .youtube {
