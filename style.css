@@ -71,12 +71,13 @@ section {
 
 .profile-picture {
     width: 512px;
-    max-width: 25%;
+    max-width: 37.5%;
     height: auto;
 }
 
 .personal-information {
     color: white;
+    text-align: left;
 }
 
 .button {
