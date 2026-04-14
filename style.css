@@ -45,11 +45,11 @@ section {
     text-align: center;
 }
 
-#about {
+#about-me {
     background: rgb(10, 10, 10)
 }
 
-.about-body {
+.about-me-body {
     display: flex;
     gap: 80px;
     color: white;
@@ -59,19 +59,20 @@ section {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-#project {
+#projects {
     background: rgb(10, 10, 10)
 }
 
-.project-body {
+.projects-body {
     color: white;
     align-items: center;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .profile-picture {
-    width: 512px;
+    width: 384px;
     max-width: 37.5%;
+    border: 8px solid rgb(10, 10, 10);
     height: auto;
 }
 
@@ -104,7 +105,7 @@ section {
 }
 
 .youtube:hover {
-    background-color: rgb(253, 62, 62);
+    background-color: rgb(255, 32, 32);
 }
 
 .x {
